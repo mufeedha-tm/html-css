@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --bg-image: url(https://images.pexels.com/photos/32822357/pexels-photo-32822357.jpeg);
+            /* --bg-attachment:fixed; */
+        }
+        body{
+            margin: 0;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            background-image: var(--bg-image);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .bgimage{
+            text-align: center;
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile_pic{
+            height: 90px;
+            width: 90px;
+            size: 60px;
+            border: 40% soid white;
+            border-radius: 50%;
+            /* background-size: cover; */
+        }
+        .h3 , h4{
+            color:white;
+            
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto auto;
+            grid-template-areas: 
+            "card card column column"
+            "first first first third"
+            "four five five five";
+            gap: 20px;
+            /* width: 800px;
+            height: 400px; */
+            margin: 40px auto;
+            padding: 200px;
+        }
+        .card{
+            grid-area: card;
+            color: white;
+            background-color: rgb(62, 125, 192);
+            justify-content: center;
+            /* width: 340px;
+            height: 200px; */
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .column{
+            grid-area: column;
+            color: black;
+            background-color: beige;
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .first{
+            grid-area: first;
+            color: black;
+            background-color:beige;
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .third{
+            grid-area: third;
+            color: white;
+            background-color: rgb(62, 125, 192);
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .four{
+            grid-area: four;
+            color:black;
+            background-color: beige;
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .five{
+            grid-area: five;
+            color: white;
+            background-color: rgb(62, 125, 192);
+            justify-content: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bgimage">
+            <img src="https://images.pexels.com/photos/18977034/pexels-photo-18977034.jpeg" height="50px" width="50px" class="profile_pic" style="border: 5px solid white;">
+            <h3 class="h3">Hi, I am Mufeedha</h3>
+            <h4>Python Fullstack Developer</h4>
+    </div> 
+    <!-- <section> -->
+        <div class="grid-container">
+            <div class="card">
+              <h3>Easy Profile</h3>
+              <p>Motivated and detail-oriented professional with a  strong work ethic and a passion for continuous  learning. Skilled in collaborating with teams, managing responsibilities efficiently, and adapting quickly to new challenges. </p>
+            </div>
+    <div class="column">
+        <h3>Skills</h3>
+        <div>HTML / CSS------70%</div> <br>
+        <div>UI/UX Design------85%</div> <br>
+        <div>Bootstrap------86%</div> <br>
+      </div>
+      <div class="first">
+    <div class="second">
+        <h3>Education</h3>
+        <p>Graduated in BA English from Mar dionysious college pazhanji. <br> Internship in Python Fullstack from Techolas Technologies. <br> Plus two <br> SSLC</p>
+    </div>
+</div>
+    <div class="third">
+        <h3>Languages</h3>
+        <ul type="disk">
+            <li>English</li>
+            <li>Malayalam</li>
+            <li>Hindi</li>
+        </ul>
+
+    </div>
+    <div class="four">
+        <h3>Contact</h3>
+        <p>📍 Mavoor road, Calicut</p>
+        <p>📞 8075702820</p>
+        <p>📩mufeedha059@gmail.com</p>
+        <p>🖥️ www.mufeedha.com</p>
+    </div>
+
+    <div class="five">
+        <h3>Experiences</h3>
+        <h3 style="text-decoration: underline ;">Website Developer</h3>
+        <ul type="circle">
+            <li>1 Year experience at Ynot Technologies</li>
+            <li>2 Year experience at Zoom Technologies</li>
+            <li>1 and half years experience at Coral Technologies</li>
+        </ul>
+
+    </div>
+</div>
+<!-- </section> -->
+</body>
+</html>
+    

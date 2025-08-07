@@ -1,0 +1,102 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+p{
+    color:blue;
+    
+}
+h1,h2{
+    color:blueviolet;
+    background-color: brown;
+}
+.head{
+  color: black;
+}
+/* button:focus{
+  font-size: 30px;
+} */
+/* body button:hover{
+  background-color: aqua;
+} */
+.main .para{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+input:active{
+  background-color: chartreuse;
+}
+
+p::before{
+  content: "$";
+}
+p::after{
+  content:"!";
+}
+p::first-line{
+  font-size: 30px;
+  color: brown;
+}
+button{
+  width: 80px;
+  height: 40px;
+  border: none;
+}
+
+#para{
+  height: 1000px;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/32956257/pexels-photo-32956257.jpeg); background-size: cover;
+}
+
+/* h1{
+  color: aquamarine;
+  background-color: brown;
+} */
+.login{
+  margin-left: 20%;
+  margin-top: 30px;
+ padding: 10px 20px 10px 20px;
+ font-size: 18px;
+ color: brown;
+ background-color:black;
+}
+.save{
+  position: relative;
+  left: 20px;
+  margin-left: 20%;
+  margin-right: 30px;
+  padding: 10px 20px 10px 20px;
+  color: aquamarine;
+  background-color: black;
+
+}
+/* button:hover{
+  background-color: brown;
+  color:black;
+} */
+
+.main{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+}
+h1{
+  position: absolute;
+  left: 0;
+}
+.box{
+  position:absolute;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+
+
+
+
+

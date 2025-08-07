@@ -1,0 +1,70 @@
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.751);
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+.links{
+    flex: 5;
+}
+.searchbar{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchbar button{
+    background-color: transparent;
+    color: green;
+    padding: 5px;
+    border: 1px solid green;
+}
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.126);
+    display: flex;
+    justify-content: center;
+}
+.content-inner{
+    width: 80%;
+}
+.content-inner a{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content-two{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.two-inner{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content1{
+    width: 50%;
+}
+.hr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 80%;
+}

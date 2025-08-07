@@ -1,0 +1,25 @@
+.respo-box{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* small device (phone) */
+@media(max--width:480px){
+.respo-box{
+    background-color: brown;
+    font-size: 114px;
+}
+}
+/* 
+medium device (tablets) */
+@media(min-width:481px) and (max-width:768px){
+    .respo-box{
+        background-color: aqua;
+        font-size: 18px;
+    }
+}
+
+/* large device(desktop)
+@media(min-width:) */

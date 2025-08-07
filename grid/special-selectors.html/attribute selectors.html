@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required]{
+            border: 2px solid red;
+        }
+        input[type="email"]{
+            background-color: aquamarine;
+        }
+        div[class~="highlate"]{
+            background-color: rgb(43, 226, 189);
+            /*~ tilde */
+        }
+        p[lang|="en"]{
+            /* attr='value' exact or start with value */
+            color: blue;
+        }
+        a[href^=https]{
+            color: green;
+            /*^ starts with */
+        }
+        img[src$=".jpeg"]{
+            border: 2px dashed white;
+            width: 120px;
+            /* $dollar end with */
+        }
+        a[href*="about"]{
+            font-weight: bold;
+            text-decoration: underline;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           /* * asterrisk  */
+        }
+    </style>
+</head>
+<body>
+     <!-- 1st method -->
+    <h2>Css Attribute Selectors</h2>
+
+    <input type="text" placeholder="your name" required><br><br>
+    
+<!-- 2nd method -->
+     <input type="email" placeholder="your email"><br><br>
+     
+<!-- 3rd method -->
+     <div class="box highlate">Highlighted box</div>
+     
+<!-- 4th method -->
+     <p lang="en">English paragraph</p>
+     <p lang="en-Us">dummy</p>
+
+ <!-- 5th method -->
+     <a href="https://example.com/login">login</a><br><br>
+
+  <!-- 6thmethod -->
+   <img src="https://images.pexels.com/photos/32983742/pexels-photo-32983742.jpeg" alt="sample image">
+   <img src="https://images.pexels.com/photos/32435002/pexels-photo-32435002.jpeg" alt=""><br>
+
+<!-- 7thmethod -->
+ <a href="https://example.com/about">About Us</a>
+ 
+
+     
+</body>
+</html>

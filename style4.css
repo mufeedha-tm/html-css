@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    height: 500px;
+    background-color:black
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color:aqua
+}
