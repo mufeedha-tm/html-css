@@ -1,0 +1,22 @@
+$primary-color:black;
+
+nav{
+    background-color: $primary-color;
+    ul{
+        list-style: none;
+
+        li{
+            display: inline-block;
+
+            a{
+                color: white;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
